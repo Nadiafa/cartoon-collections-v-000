@@ -14,5 +14,5 @@ end
 def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.find {|a| a.include?(cheese_types)}
+  arr.find {|a| a.any?include?(cheese_types)}
 end
