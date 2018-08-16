@@ -7,7 +7,7 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  if arr.any?(>4)
+  if arr.each {|a| a.length > 4}
     true
   else
     false
