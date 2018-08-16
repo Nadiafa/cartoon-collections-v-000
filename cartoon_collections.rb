@@ -7,7 +7,11 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  (arr.each {|a| a.length > 4}) ? true : false
+  if arr.each {|a| a.length > 4}
+    true
+  else
+    false
+  end
 end
 
 def find_the_cheese# code an argument here
